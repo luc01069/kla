@@ -1,0 +1,26 @@
+# Python-spezifische Dateien
+*.pyc
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen
+venv/
+env/
+.env
+
+# IDE-spezifische Dateien
+.vscode/
+.idea/
+*.sublime-*
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Temporäre Dateien
+*.log
+*.tmp
+
+# Projektspezifische Dateien
+config.ini
+secrets.json
