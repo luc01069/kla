@@ -27,6 +27,7 @@ def main():
     results = []
     for factor in scaling_factors:
         scaled_volume, scaled_kla = kla_simulation(initial_volume, initial_kla, factor)
+        print(f"{scaled_volume}, {scaled_kla}")
         results.append((scaled_volume, scaled_kla))
 
     # Extract results for plotting
